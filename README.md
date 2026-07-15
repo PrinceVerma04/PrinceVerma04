@@ -1,5 +1,23 @@
-# 💫 About Me:
-## About Me :<br><br> I’m currently working on AI-powered systems using Machine Learning, Deep Learning, and Retrieval-Augmented Generation (RAG)<br><br> I’m looking to collaborate on Data Science, Computer Vision, NLP, and Generative AI projects<br><br> I’m looking for help with scalable ML deployment, MLOps, and production-grade AI systems<br><br> I’m currently learning Advanced LLM Applications, AI Agents, and Autonomous Systems<br><br> Ask me about Python, Deep Learning, RAG Pipelines, CNNs, NLP, TensorFlow, PyTorch, and Data Science<br><br> Fun fact: I love building AI systems that solve real-world problems — from Traffic Sign Recognition to AgriTech AI solutions
+# 💫 About Me
+
+🚀 ML Engineer Intern @ Coral Innovation Pvt. Ltd.
+
+🎓 M.Tech in Smart Mobility at IIT Hyderabad
+
+💡 Passionate about Machine Learning, Computer Vision, Generative AI, and LLM-powered applications.
+
+🔹 Currently working on:
+- Production-grade OCR Systems
+- Computer Vision & Deep Learning
+- Retrieval-Augmented Generation (RAG)
+- AI Agents & LLM Applications
+
+🤝 Open to collaborating on Machine Learning, Computer Vision, NLP, and Generative AI projects.
+
+⚡ Tech Interests:
+Python • PyTorch • TensorFlow • OpenCV • YOLO • RAG • LangChain • LangGraph • Docker • FastAPI
+
+🌱 Always learning and building AI systems that solve real-world problems.
 
 
 ## 🌐 Socials:
