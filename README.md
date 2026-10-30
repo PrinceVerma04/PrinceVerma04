@@ -1,6 +1,6 @@
 # 💫 About Me
 
-🚀 ML Engineer Intern @ Coral Innovation Pvt. Ltd.
+🚀 ML Engineer @ Coral Innovation Pvt. Ltd.
 
 🎓 M.Tech in Smart Mobility at IIT Hyderabad
 
