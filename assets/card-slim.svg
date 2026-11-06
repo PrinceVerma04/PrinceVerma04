@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="SLIM-XA: 99.98% fake-speech recall, 90% accuracy on ASVspoof 2019 LA">
+<style>
+
+text{font-family:'Segoe UI','Helvetica Neue',Ubuntu,Arial,sans-serif}
+.tilt{transform-box:view-box;transform-origin:500px 95px;animation:tilt 9s ease-in-out infinite}
+@keyframes tilt{
+ 0%,100%{transform:skew(0deg,0deg) scale(1)}
+ 25%{transform:skew(-1.6deg,.5deg) scale(.985)}
+ 50%{transform:skew(0deg,-.6deg) scale(1)}
+ 75%{transform:skew(1.6deg,.5deg) scale(.985)}}
+.shadow{transform-box:view-box;transform-origin:500px 95px;animation:shadow 9s ease-in-out infinite}
+@keyframes shadow{
+ 0%,100%{transform:translate(0,6px)}
+ 25%{transform:translate(10px,8px)}
+ 50%{transform:translate(0,10px)}
+ 75%{transform:translate(-10px,8px)}}
+.shine{animation:shine 6s ease-in-out infinite}
+@keyframes shine{0%,30%{transform:translateX(-500px) skewX(-20deg)}70%,100%{transform:translateX(1300px) skewX(-20deg)}}
+.chip{animation:up .8s cubic-bezier(.2,.7,.2,1) backwards}
+.kick{animation:up .8s cubic-bezier(.2,.7,.2,1) .15s backwards}
+@keyframes up{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:none}}
+
+.vb{transform-box:fill-box;transform-origin:center;animation:eq 1s ease-in-out infinite alternate}
+@keyframes eq{0%{transform:scaleY(.35)}100%{transform:scaleY(1)}}
+.att{animation:att 2.4s ease-in-out infinite}
+@keyframes att{0%,100%{opacity:.08}50%{opacity:.85}}
+
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+
+<defs>
+  <linearGradient id="gCslim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1B2A"/><stop offset="1" stop-color="#16324A"/></linearGradient>
+  <linearGradient id="gEslim" x1="0" x2="1"><stop offset="0" stop-color="#58A6FF" stop-opacity=".7"/><stop offset=".5" stop-color="#5EEAD4" stop-opacity=".25"/><stop offset="1" stop-color="#58A6FF" stop-opacity=".7"/></linearGradient>
+  <linearGradient id="gSslim" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <filter id="fSslim" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+  <clipPath id="clslim"><rect x="16" y="14" width="968" height="158" rx="16"/></clipPath>
+  <clipPath id="cmslim"><rect x="0" y="0" width="284" height="158"/></clipPath>
+</defs>
+<rect class="shadow" x="30" y="20" width="940" height="150" rx="16" fill="#000" opacity=".35" filter="url(#fSslim)"/>
+<g class="tilt">
+  <rect x="16" y="14" width="968" height="158" rx="16" fill="url(#gCslim)" stroke="url(#gEslim)" stroke-width="1.5"/>
+  <g clip-path="url(#clslim)">
+    <g transform="translate(16,14)"><g clip-path="url(#cmslim)">
+<text x="40" y="24" font-size="10" fill="#8B949E" style="font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">style</text>
+<rect class="vb" x="40" y="41" width="7" height="14" rx="3" fill="#58A6FF" style="animation-delay:-0.00s"/><rect class="vb" x="54" y="35" width="7" height="26" rx="3" fill="#58A6FF" style="animation-delay:-0.10s"/><rect class="vb" x="68" y="39" width="7" height="18" rx="3" fill="#58A6FF" style="animation-delay:-0.20s"/><rect class="vb" x="82" y="32" width="7" height="32" rx="3" fill="#58A6FF" style="animation-delay:-0.30s"/><rect class="vb" x="96" y="37" width="7" height="22" rx="3" fill="#58A6FF" style="animation-delay:-0.40s"/><rect class="vb" x="110" y="33" width="7" height="30" rx="3" fill="#58A6FF" style="animation-delay:-0.50s"/><rect class="vb" x="124" y="40" width="7" height="16" rx="3" fill="#58A6FF" style="animation-delay:-0.60s"/><rect class="vb" x="138" y="34" width="7" height="28" rx="3" fill="#58A6FF" style="animation-delay:-0.70s"/><rect class="vb" x="152" y="38" width="7" height="20" rx="3" fill="#58A6FF" style="animation-delay:-0.80s"/><rect class="vb" x="166" y="36" width="7" height="24" rx="3" fill="#58A6FF" style="animation-delay:-0.90s"/><rect class="vb" x="180" y="41" width="7" height="14" rx="3" fill="#58A6FF" style="animation-delay:-1.00s"/><rect class="vb" x="194" y="35" width="7" height="26" rx="3" fill="#58A6FF" style="animation-delay:-1.10s"/><rect class="vb" x="208" y="39" width="7" height="18" rx="3" fill="#58A6FF" style="animation-delay:-1.20s"/><rect class="vb" x="222" y="33" width="7" height="30" rx="3" fill="#58A6FF" style="animation-delay:-1.30s"/>
+<path class="att" d="M169 66 L43 100" stroke="#fff" stroke-width="1.2" style="animation-delay:0.0s"/><path class="att" d="M169 66 L197 100" stroke="#fff" stroke-width="1.2" style="animation-delay:0.2s"/><path class="att" d="M57 66 L211 100" stroke="#fff" stroke-width="1.2" style="animation-delay:0.4s"/><path class="att" d="M85 66 L183 100" stroke="#fff" stroke-width="1.2" style="animation-delay:0.6s"/><path class="att" d="M85 66 L99 100" stroke="#fff" stroke-width="1.2" style="animation-delay:0.8s"/><path class="att" d="M183 66 L57 100" stroke="#fff" stroke-width="1.2" style="animation-delay:1.0s"/><path class="att" d="M71 66 L85 100" stroke="#fff" stroke-width="1.2" style="animation-delay:1.2s"/><path class="att" d="M71 66 L155 100" stroke="#fff" stroke-width="1.2" style="animation-delay:1.4s"/><path class="att" d="M57 66 L71 100" stroke="#fff" stroke-width="1.2" style="animation-delay:1.6s"/><path class="att" d="M43 66 L127 100" stroke="#fff" stroke-width="1.2" style="animation-delay:1.8s"/><path class="att" d="M141 66 L197 100" stroke="#fff" stroke-width="1.2" style="animation-delay:2.0s"/><path class="att" d="M169 66 L141 100" stroke="#fff" stroke-width="1.2" style="animation-delay:2.2s"/>
+<rect class="vb" x="40" y="107" width="7" height="22" rx="3" fill="#5EEAD4" style="animation-delay:-0.00s"/><rect class="vb" x="54" y="110" width="7" height="16" rx="3" fill="#5EEAD4" style="animation-delay:-0.17s"/><rect class="vb" x="68" y="103" width="7" height="30" rx="3" fill="#5EEAD4" style="animation-delay:-0.34s"/><rect class="vb" x="82" y="108" width="7" height="20" rx="3" fill="#5EEAD4" style="animation-delay:-0.51s"/><rect class="vb" x="96" y="105" width="7" height="26" rx="3" fill="#5EEAD4" style="animation-delay:-0.68s"/><rect class="vb" x="110" y="111" width="7" height="14" rx="3" fill="#5EEAD4" style="animation-delay:-0.85s"/><rect class="vb" x="124" y="102" width="7" height="32" rx="3" fill="#5EEAD4" style="animation-delay:-1.02s"/><rect class="vb" x="138" y="109" width="7" height="18" rx="3" fill="#5EEAD4" style="animation-delay:-1.19s"/><rect class="vb" x="152" y="106" width="7" height="24" rx="3" fill="#5EEAD4" style="animation-delay:-1.36s"/><rect class="vb" x="166" y="104" width="7" height="28" rx="3" fill="#5EEAD4" style="animation-delay:-1.53s"/><rect class="vb" x="180" y="110" width="7" height="16" rx="3" fill="#5EEAD4" style="animation-delay:-1.70s"/><rect class="vb" x="194" y="107" width="7" height="22" rx="3" fill="#5EEAD4" style="animation-delay:-1.87s"/><rect class="vb" x="208" y="103" width="7" height="30" rx="3" fill="#5EEAD4" style="animation-delay:-2.04s"/><rect class="vb" x="222" y="108" width="7" height="20" rx="3" fill="#5EEAD4" style="animation-delay:-2.21s"/>
+<text x="40" y="148" font-size="10" fill="#8B949E" style="font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">linguistic</text>
+</g></g>
+    <line x1="300" y1="34" x2="300" y2="152" stroke="#58A6FF" stroke-opacity=".18"/>
+    <text class="kick" x="330" y="50" font-size="13" font-weight="700" letter-spacing="2.2" fill="#5EEAD4" style="font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">05 · AUDIO DEEPFAKE DETECTION</text>
+    <g class="chip" style="animation-delay:0.35s"><rect x="330" y="72" width="204" height="84" rx="10" fill="#ffffff" fill-opacity=".04" stroke="#58A6FF" stroke-opacity=".22"/><text x="346" y="112" font-size="29" font-weight="700" fill="#E6EDF3">99.98%</text><text x="346" y="139" font-size="12.5" fill="#8B949E">fake-speech recall</text></g><g class="chip" style="animation-delay:0.53s"><rect x="550" y="72" width="204" height="84" rx="10" fill="#ffffff" fill-opacity=".04" stroke="#58A6FF" stroke-opacity=".22"/><text x="566" y="112" font-size="29" font-weight="700" fill="#E6EDF3">90%</text><text x="566" y="139" font-size="12.5" fill="#8B949E">accuracy · ASVspoof 2019 LA</text></g><g class="chip" style="animation-delay:0.71s"><rect x="770" y="72" width="204" height="84" rx="10" fill="#ffffff" fill-opacity=".04" stroke="#58A6FF" stroke-opacity=".22"/><text x="786" y="112" font-size="29" font-weight="700" fill="#E6EDF3">4-head</text><text x="786" y="139" font-size="12.5" fill="#8B949E">bidirectional cross-attention</text></g>
+    <rect class="shine" x="0" y="0" width="160" height="200" fill="url(#gSslim)"/>
+  </g>
+</g>
+
+</svg>
