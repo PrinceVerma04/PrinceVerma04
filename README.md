@@ -147,10 +147,6 @@ flowchart LR
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PrinceVerma04&theme=github-compact&hide_border=true&area=true" width="100%" alt="Contribution graph"/>
-</p>
-
-<p align="center">
   <img src="https://komarev.com/ghpvc/?username=PrinceVerma04&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
 </p>
 
