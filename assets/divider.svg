@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="1200" height="28" role="img" aria-label="">
+<style>
+
+.beam{animation:beam 4.5s cubic-bezier(.5,0,.5,1) infinite}
+@keyframes beam{0%{transform:translateX(-300px)}100%{transform:translateX(1200px)}}
+.dot{transform-box:fill-box;transform-origin:center;animation:dot 2.2s ease-in-out infinite alternate}
+@keyframes dot{0%{transform:rotate(45deg) scale(.7);opacity:.6}100%{transform:rotate(45deg) scale(1.15);opacity:1}}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+
+<defs>
+  <linearGradient id="gLine" x1="0" x2="1"><stop offset="0" stop-color="#58A6FF" stop-opacity="0"/><stop offset=".5" stop-color="#58A6FF" stop-opacity=".45"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="gBeam" x1="0" x2="1"><stop offset="0" stop-color="#5EEAD4" stop-opacity="0"/><stop offset=".5" stop-color="#5EEAD4"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0"/></linearGradient>
+  <filter id="fG" x="-10%" y="-200%" width="120%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<rect x="0" y="13" width="1200" height="2" fill="url(#gLine)"/>
+<g class="beam"><rect width="300" height="6" y="11" rx="3" fill="url(#gBeam)" filter="url(#fG)"/><rect width="300" height="2" y="13" fill="url(#gBeam)"/></g>
+<rect class="dot" x="594" y="8" width="12" height="12" rx="2" fill="#5EEAD4"/>
+
+</svg>
