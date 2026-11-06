@@ -150,6 +150,15 @@ flowchart LR
   <img src="https://komarev.com/ghpvc/?username=PrinceVerma04&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
 </p>
 
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"/></p>
+
+## 🌱 Currently Working On
+
+Personal projects in progress:
+
+- **YouTube Product Review Analysis**: analysing product-review videos and their comments to understand what viewers really think about a product
+- **OCR & Local Vision Models in Production**: fine-tuning OCR models and taking local vision models into production
+
 <!-- ============================== FOOTER ============================== -->
 <p align="center">
   <img src="assets/footer.svg" alt="" width="100%"/>
