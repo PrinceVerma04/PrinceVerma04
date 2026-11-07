@@ -26,7 +26,7 @@ I build ML systems that hold up in production: models that are accurate on messy
 ```python
 class PrinceVerma:
     role      = "AI/ML Engineer @ Coral Innovation Pvt. Ltd."
-    education = ["M.Tech Smart Mobility, IIT Hyderabad (2026)",
+    education = ["M.Tech Smart Mobility (CSE+AI), IIT Hyderabad (2026)",
                  "B.Tech, BBDNITM Lucknow (2022)"]
     focus     = ["Production OCR & Document AI",
                  "Computer Vision & Edge Deployment",
