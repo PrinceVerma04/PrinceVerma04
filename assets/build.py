@@ -395,8 +395,8 @@ def motif_slim():
 
 CARDS = [
     ("ocr", "01 · PRODUCTION OCR",
-     [("15×", "faster on CPU · 304 → 20 ms"), ("96.8%", "precision · auto-accept gate"), ("81→21 MB", "INT8 quantized model")],
-     motif_ocr, "Meter Serial OCR: 15x faster on CPU, 96.8% precision, 81 to 21 MB INT8 model"),
+     [("14×", "faster on CPU · 253 → 18 ms"), ("98.2%", "precision · auto-accept gate"), ("84→21 MB", "INT8 quantized model")],
+     motif_ocr, "Meter Serial OCR: 14x faster on CPU, 98.2% precision, 84 to 21 MB INT8 model"),
     ("civic", "02 · EDGE COMPUTER VISION",
      [("0.80", "mAP@50 · 10 classes"), ("17,000+", "real-world training images"), ("~26 MB", "INT8 TFLite · fully offline")],
      motif_civic, "Civic Monitor: 0.80 mAP@50, 17,000+ images, ~26 MB INT8 TFLite"),

@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://prince-portfolio.princeiith.workers.dev/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=AI%2FML+Engineer+%40+Coral+Innovation;Production+OCR+%7C+304ms+to+20ms+with+INT8;Computer+Vision+%2B+Speech+AI+%2B+RAG;M.Tech+Smart+Mobility+%40+IIT+Hyderabad" alt="Typing tagline"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=AI%2FML+Engineer+%40+Coral+Innovation;Production+OCR+%7C+253ms+to+18ms+with+INT8;Computer+Vision+%2B+Speech+AI+%2B+RAG;M.Tech+Smart+Mobility+%40+IIT+Hyderabad" alt="Typing tagline"/>
   </a>
 </p>
 
@@ -47,9 +47,9 @@ class PrinceVerma:
 Fine-tuned **PaddleOCR PP-OCRv5** on field photos of meter nameplates and shipped it as a quantized CPU service.
 
 - **83%** exact match on 21K serials the legacy OCR misread, and **93%** on the 18K images human review confirmed readable
-- Retrained INT8 model: **99%** on new held-out images (up from 91%) and **91%** on hard human-reviewed images (up from 12%)
-- Confidence gate auto-accepts **64%** of reads at **96.8% precision** on a 4.3K blind test, and holds **95.4%** accuracy on an unseen utility with no retraining
-- INT8 post-training quantization: **81 MB → 21 MB** and **304 ms → 20 ms** per image on CPU (15× faster), with **98.6%** FP32-to-INT8 agreement after fixing a silent export failure
+- Retrained INT8 model: **99%** on new held-out images (up from 91%), **91%** on hard human-reviewed images (up from 12%), and **5.5× fewer** confidently wrong reads (424 → 77) on 8.2K review-confirmed images
+- On 6.2K images never used in training, the retrained model reaches **97.8%** exact match, and the confidence gate auto-accepts **97%** of reads at **98.2% precision**
+- INT8 post-training quantization: **84 MB → 21 MB** and **253 ms → 18 ms** per image on CPU (14× faster), with **98.6%** FP32-to-INT8 agreement after fixing a silent export failure
 - Served as an **ONNX Runtime REST API** with Flask, Docker, systemd and health checks
 
 ```mermaid
