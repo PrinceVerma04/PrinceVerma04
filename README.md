@@ -156,8 +156,9 @@ flowchart LR
 
 Personal projects in progress:
 
-- **YouTube Product Review Analysis**: analysing product-review videos and their comments to understand what viewers really think about a product
 - **OCR & Local Vision Models in Production**: fine-tuning OCR models and taking local vision models into production
+- **YouTube Product Review Analysis**: analysing product-review videos and their comments to understand what viewers really think about a product
+  
 
 <!-- ============================== FOOTER ============================== -->
 <p align="center">
